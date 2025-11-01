@@ -155,8 +155,6 @@ dirs=(
     xsettingsd
     yazi
     dolphinrc
-    kwalletmanagerrc
-    kwallertc
 )
 
 
