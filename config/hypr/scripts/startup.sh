@@ -22,6 +22,7 @@ fi
 "$scrDir/wallcache.sh"
 "$scrDir/system.sh" run &
 nm-applet --indicator &
+optimus-manager-qt &
 hyprctl reload
 
 
