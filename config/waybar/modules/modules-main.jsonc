@@ -371,7 +371,9 @@
     "max": 100,
     "on-scroll-up": "~/.config/hypr/scripts/volumecontrol.sh --inc",
     "on-scroll-down": "~/.config/hypr/scripts/volumecontrol.sh --dec",
-    "orientation": "vertical"
+    "orientation": "vertical",
+    "on-scroll-up": "",
+    "on-scroll-down": "" 
   },
 
   // pulseaudio
