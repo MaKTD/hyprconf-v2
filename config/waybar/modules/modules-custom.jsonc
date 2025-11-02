@@ -94,7 +94,7 @@
     
     // Nightlight option.
     "custom/nightlight": {
-        "format": "󰖔 ",
+        "format": " 󰖔 ",
         "exec": "~/.config/hypr/scripts/nightlight.sh",
         "on-click": "~/.config/hypr/scripts/nightlight.sh --value",
         "on-click-right": "~/.config/hypr/scripts/nightlight.sh --def",

@@ -21,6 +21,7 @@ fi
 "$scrDir/notification.sh" sys
 "$scrDir/wallcache.sh"
 "$scrDir/system.sh" run &
+nm-applet --indicator &
 hyprctl reload
 
 
