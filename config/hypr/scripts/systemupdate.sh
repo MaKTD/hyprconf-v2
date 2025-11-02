@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SOUND_FILE_UPDATE="$HOME/.config/hypr/sounds/update.wav"
-SOUND_FILE_ERROR="$HOME/.config/hypr/sounds/error.wav"
+#SOUND_FILE_UPDATE="$HOME/.config/hypr/sounds/update.wav"
+#SOUND_FILE_ERROR="$HOME/.config/hypr/sounds/error.wav"
 update_sign="$HOME/.config/hypr/icons/update.png"
 done_sign="$HOME/.config/hypr/icons/done.png"
 warning_sign="$HOME/.config/hypr/icons/warning.png"
@@ -11,12 +11,12 @@ upd_script="$HOME/.config/hypr/scripts/pkgupdate.sh"
 # notification functions
 update_notification() {
     notify-send -i "$1" "$2" "$3"
-    paplay "$SOUND_FILE_UPDATE"
+    #paplay "$SOUND_FILE_UPDATE"
 }
 
 error_notification() {
     notify-send -i "$1" "$2" "$3"
-    paplay "$SOUND_FILE_ERROR"
+    #paplay "$SOUND_FILE_ERROR"
 }
 
 scripts_dir="$HOME/.config/hypr/scripts"

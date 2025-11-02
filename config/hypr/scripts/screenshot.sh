@@ -4,7 +4,7 @@ if [ -z "$XDG_PICTURES_DIR" ] ; then
     XDG_PICTURES_DIR="$HOME/Pictures"
 fi
 
-sound_file="/usr/share/sounds/freedesktop/stereo/screen-capture.oga"
+#sound_file="/usr/share/sounds/freedesktop/stereo/screen-capture.oga"
 save_dir="${2:-$XDG_PICTURES_DIR/Screenshots}"
 save_file=$(date +'screenshot_%y%m%d_%H%M%S.png')
 temp_screenshot="/tmp/screenshot.png" # Satty can also read from stdin, but using a temp file fits your current script structure
@@ -12,7 +12,7 @@ temp_screenshot="/tmp/screenshot.png" # Satty can also read from stdin, but usin
 mkdir -p "$save_dir"
 
 ss_sound() {
-    paplay "$sound_file"
+    #paplay "$sound_file"
 }
 
 option1="Fullscreen (delay 3 sec)"
