@@ -104,10 +104,12 @@
     },
 
     // system info expand
-    "custom/system": {
-        "format": "",
-        "tooltip-format": "system info\n\nLeft-click to check system info"
-    },
+  "custom/system": {
+    "format": "",
+    "tooltip-format": "system info\n\nLeft-click to check system info",
+    "on-scroll-up": "",
+    "on-scroll-down": "" 
+  },
 
     // power section expand
     "custom/power": {

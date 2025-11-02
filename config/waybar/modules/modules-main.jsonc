@@ -29,7 +29,8 @@
     "format-icons": [
       "󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
     ],
-    //"on-click-right": "kitty -e nmtui"
+    "on-scroll-up": "",
+    "on-scroll-down": "" 
   },
 
   // network speed
@@ -43,6 +44,8 @@
     "format-icons": [
       "󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
     ],
+    "on-scroll-up": "",
+    "on-scroll-down": "" 
     //"on-click-right": "kitty -e nmtui"
   },
 
@@ -55,7 +58,9 @@
       "deactivated": "󰛊"
     },
     "tooltip-format-activated":"Caffeine Mode: Active \nNothing will be happen.",
-    "tooltip-format-deactivated":"Caffeine Mode: Inactive\n\nIf there is no interaction with your\nsystem (mouse/keyboard), then \nScreen Lock: after 5 min \nScreen Off: after 10 min \nSleep: after 30 min"
+    "tooltip-format-deactivated":"Caffeine Mode: Inactive\n\nIf there is no interaction with your\nsystem (mouse/keyboard), then \nScreen Lock: after 5 min \nScreen Off: after 10 min \nSleep: after 30 min",
+    "on-scroll-up": "",
+    "on-scroll-down": "" 
   },
 
   // window
@@ -236,7 +241,9 @@
   "cpu": {
     "interval": 10,
     "format": "{icon0}{icon1}{icon2} {usage}%",
-    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+    "on-scroll-up": "",
+    "on-scroll-down": "" 
   },
 
   // memory
@@ -245,7 +252,9 @@
     "format": "󰾅 {used}GB",
     "max-length": 10,
     "tooltip": true,
-    "tooltip-format": " {used:0.1f}GB/{total:0.1f}GB"
+    "tooltip-format": " {used:0.1f}GB/{total:0.1f}GB",
+    "on-scroll-up": "",
+    "on-scroll-down": "" 
   },
 
   // dik
@@ -254,7 +263,9 @@
     "format": " {free}",
     "path": "/",
     "tooltip": true,
-    "tooltip-format": "Storage - {used} used out of {total} on {path} ({percentage_used}%)"
+    "tooltip-format": "Storage - {used} used out of {total} on {path} ({percentage_used}%)",
+    "on-scroll-up": "",
+    "on-scroll-down": "" 
   },
 
   // temperature
@@ -263,7 +274,9 @@
     "format": " {temperatureC}°C",
     "critical-threshold": 70,
     "format-critical": " {temperatureF}°F",
-    "on-click": "kitty --title btop sh -c 'btop'"
+    "on-click": "kitty --title btop sh -c 'btop'",
+    "on-scroll-up": "",
+    "on-scroll-down": "" 
   },
 
   // backlight
@@ -289,7 +302,9 @@
     "on-update": "",
     "on-scroll-up": "~/.config/hypr/scripts/brightness.sh up",
     "on-scroll-down": "~/.config/hypr/scripts/brightness.sh down",
-    "smooth-scrolling-threshold": 1
+    "smooth-scrolling-threshold": 1,
+    "on-scroll-up": "",
+    "on-scroll-down": "" 
   },
 
   // tray
@@ -349,6 +364,8 @@
     "format-time": "{H}h {M}min",
     "tooltip": true,
     "tooltip-format": "{timeTo} {power}w",
+    "on-scroll-up": "",
+    "on-scroll-down": "" 
   },
 
   "pulseaudio/slider": {
