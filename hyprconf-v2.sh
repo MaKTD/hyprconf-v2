@@ -142,7 +142,7 @@ dirs=(
     kitty
     Kvantum
     menus
-    nvim
+    #nvim
     nwg-look
     qt5ct
     qt6ct
