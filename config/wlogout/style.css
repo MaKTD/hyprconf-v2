@@ -23,13 +23,10 @@ button {
 }
 
 button:focus {
-  border: 0px;
-  outline-style: none;
-  background-size: 35%;
-  animation: gradient_f 20s ease-in infinite;
-}
-
-button:hover {
+  /*border: 0px;*/
+  /*outline-style: none;*/
+  /*background-size: 35%;*/
+  /*animation: gradient_f 20s ease-in infinite;*/
   background-color: @foreground;
   color: @background;
   background-size: 55%;
@@ -39,12 +36,22 @@ button:hover {
   margin: -40px 0;
 }
 
-button:hover#lock,
-button:hover#suspend,
-button:hover#shutdown,
-button:hover#logout,
-button:hover#hibernate,
-button:hover#reboot {
+/*button:hover {*/
+/*  background-color: @foreground;*/
+/*  color: @background;*/
+/*  background-size: 55%;*/
+/*  outline-style: none;*/
+/*  animation: gradient_f 20s ease-in infinite;*/
+/*  transition: all 0.3s cubic-bezier(0.55, 0, 0.28, 1.682);*/
+/*  margin: -40px 0;*/
+/*}*/
+
+button:focus#lock,
+button:focus#suspend,
+button:focus#shutdown,
+button:focus#logout,
+button:focus#hibernate,
+button:focus#reboot {
   border-radius: 30px;
 }
 

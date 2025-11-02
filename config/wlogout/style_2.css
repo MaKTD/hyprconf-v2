@@ -24,13 +24,10 @@ button {
 }
 
 button:focus {
-  border: 0px;
-  outline-style: none;
-  background-size: 20%;
-  animation: gradient_f 20s ease-in infinite;
-}
-
-button:hover {
+  /*border: 0px;*/
+  /*outline-style: none;*/
+  /*background-size: 20%;*/
+  /*animation: gradient_f 20s ease-in infinite;*/
   background-color: @foreground;
   color: @background;
   background-size: 25%;
@@ -38,6 +35,15 @@ button:hover {
   animation: gradient_f 20s ease-in infinite;
   transition: all 0.3s cubic-bezier(0.55, 0, 0.28, 1.682);
 }
+
+/*button:hover {*/
+/*  background-color: @foreground;*/
+/*  color: @background;*/
+/*  background-size: 25%;*/
+/*  outline-style: none;*/
+/*  animation: gradient_f 20s ease-in infinite;*/
+/*  transition: all 0.3s cubic-bezier(0.55, 0, 0.28, 1.682);*/
+/*}*/
 
 #lock {
   background-image: image(url("./icons/lock.png"));
@@ -59,18 +65,18 @@ button:hover {
   border-radius: 0 0 30px 0;
 }
 
-button:hover#lock {
+button:focus#lock {
   margin: -35px 0 0 -35px;
 }
 
-button:hover#logout {
+button:focus#logout {
   margin: 0 0 -35px -35px;
 }
 
-button:hover#shutdown {
+button:focus#shutdown {
   margin: -35px -35px 0 0;
 }
 
-button:hover#reboot {
+button:focus#reboot {
   margin: 0 -35px -35px 0;
 }

@@ -40,8 +40,7 @@ PRINT | take screenshot
  + CTRL + SHIFT + T | change theme
  + C | clipboard manager
  + CTRL + SHIFT + C | wipe clipboard history
- + ESC | open power menu (small)
- + SHIFT + ESC | open power meny (big)
+ + ESC | open power menu
  + CTRL + SHIFT + ESC | reload Hyprland
  + ; | switch Waybar layout
  + SHIFT + ; | reload Waybar
@@ -52,4 +51,4 @@ PRINT | take screenshot
  + CTRL + SHIFT + U | updated hyprconf
  + CTRL + SHIFT + D | uninstall configuration
  + S | open settings in terminal
- + CTRL + SHIFT + COMMA | regenerate color for pywal
+ + CTRL + SHIFT + COMMA | regenerate color for pywal
