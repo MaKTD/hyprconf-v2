@@ -1,7 +1,5 @@
  = ALT
-
  + SHIFT + ? | show keybind help
-
  + TAB | switch windows with Rofi
  + K,  + J  | Cycle through windows
  + SHIFT + K,  + SHIFT + J | Swap windows
@@ -16,7 +14,6 @@
  + CTRL + SHIFT + V | toggle all floating windows
  + SHIFT + I | toogle split
  + SHIFT + F | toggle fullscreen
-
  + F1 | decrease nightlight
  + F2 | increase nightlight
  + F3 | reset nightlight
@@ -26,45 +23,33 @@ F9 | toggle audio mute
 F10 | decrease volume
 F11 | increase volume
 PRINT | take screenshot
-
  + Q | kill active window
  + SHIFT + Q | kill hyperland (exit to sddm)
-
  + T | open terminal (kitty)
  + SHIFT + T | open floating terminal (kitty)
-
  + E | open file manager (Dolphin)
  + SHIFT + E | open terminal file manager (Yazi)
-
  + B | open browser (Default)
  + CTRL + SHIFT + B | reset default browser
-
  + R | launch app menu (rofi)
  + SHIFT + R | open emoji picker
  + CTRL + SHIFT + R | switch Rofi theme
-
  + W | change wallpaper (Wallpaper.sh)
  + SHIFT + W | select wallpaper (WallpaperSelect.sh thm1)
  + SHIFT + CTRL + W | select wallpaper (WallpaperSelect.sh thm2)
  + CTRL + SHIFT + T | change theme
-
  + C | clipboard manager
  + CTRL + SHIFT + C | wipe clipboard history
-
  + ESC | open power menu (small)
  + SHIFT + ESC | open power meny (big)
  + CTRL + SHIFT + ESC | reload Hyprland
-
  + ; | switch Waybar layout
  + SHIFT + ; | reload Waybar
  + CTRL + SHIFT + ; | toggle Waybar visibility
-
  + ~ | lockscreen (hyprlock)
  + SHIFT + ~ | lockscreen theme (hyprlock)
-
  + SHIFT + U | system update
  + CTRL + SHIFT + U | updated hyprconf
  + CTRL + SHIFT + D | uninstall configuration
-
  + S | open settings in terminal
- + CTRL + SHIFT + COMMA | regenerate color for pywal
+ + CTRL + SHIFT + COMMA | regenerate color for pywal
