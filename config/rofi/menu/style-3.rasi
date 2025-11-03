@@ -1,9 +1,11 @@
 // Config //
 configuration {
-    modi:                        "drun,filebrowser,window";
+    modi:                        "combi,filebrowser,window";
+    combi-modi:                 "drun,run";
     show-icons:                  true;
     display-drun:                "";
     display-run:                 " ";
+    display-combi:                 " ";
     display-filebrowser:         " ";
     display-window:              " ";
     drun-display-format:         "{name}";
